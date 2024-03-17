@@ -12,6 +12,7 @@ while counter < 7:
         correct_letter = []
         incorrect_letter = []
         for letter in user_guess_list:
+            # Need to fix this part for repeated letters in user_guess
             if letter in secret_word:
                 correct_letter.append(letter)
             else:
